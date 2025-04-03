@@ -1,0 +1,6 @@
+ACTION=="remove", GOTO="net_versal_end"
+SUBSYSTEM!="net", GOTO="net_versal_end"
+
+ACTION=="add", DRIVERS=="macb", KERNELS=="ff0c0000.ethernet", NAME="eth%n"
+
+LABEL="net_versal_end"

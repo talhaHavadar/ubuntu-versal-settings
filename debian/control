@@ -1,0 +1,15 @@
+Source: ubuntu-versal-settings
+Section: misc
+Priority: optional
+Maintainer: Talha Can Havadar <talha.can.havadar@canonical.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://launchpad.net/limerick
+Rules-Requires-Root: no
+
+Package: ubuntu-versal-settings
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: default settings for AMD Versal devices
+ This package contains some default settings that are specific to AMD Versal
+ devices.

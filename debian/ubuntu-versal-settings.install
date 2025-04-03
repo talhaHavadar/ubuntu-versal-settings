@@ -1,0 +1,2 @@
+usr/lib/udev/rules.d/60-net-versal.rules usr/lib/udev/rules.d/
+etc/cloud/cloud.cfg.d/99-fake-cloud.cfg etc/cloud/cloud.cfg.d/
